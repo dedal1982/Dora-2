@@ -220,3 +220,7 @@ button {
 .key-two {
   margin-top: 16px;
 }
+.info__all-main {
+  display: flex;
+  flex-direction: column;
+}
