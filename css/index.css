@@ -285,6 +285,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 65px;
+  margin-top: 93px;
 }
 .skills__link {
   width: 100%;
@@ -295,4 +296,25 @@ button {
   border-bottom: 1px solid #000000;
   padding: 112px 143px 112px 75px;
   box-sizing: border-box;
+}
+.skills__number {
+  font-family: "FDMedian", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 94.1px;
+  color: #000;
+}
+.skills__text {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.skills__work {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 55px;
+  color: #000;
+}
+.skills__icon {
+  width: 195px;
 }
