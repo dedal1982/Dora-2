@@ -79,6 +79,16 @@ button {
   padding-left: 95px;
   padding-right: 87px;
   box-sizing: border-box;
+  position: relative;
+}
+.header__title {
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 220px;
+  color: #ff0000;
+  position: absolute;
+  top: 60px;
+  left: 415px;
 }
 .header__logo {
   width: 44px;
@@ -380,4 +390,25 @@ button {
   flex-direction: column;
   gap: 26px;
   text-align: right;
+}
+/*---task---*/
+.task {
+  width: 100%;
+  display: flex;
+  background: linear-gradient(0deg, #ffffff 0%, #dddddd 44.45%, #c6c6c6 100%);
+}
+.task__wrapper {
+  display: flex;
+  padding-top: 384px;
+  padding-bottom: 208px;
+  box-sizing: border-box;
+}
+.task__top {
+  display: flex;
+}
+.task__video {
+  width: 1076px;
+  height: 625px;
+  background: #d9d9d9;
+  position: relative;
 }
