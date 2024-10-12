@@ -59,6 +59,9 @@ button {
   width: 100%;
   margin: 0 auto;
 }
+section {
+  background: #fff;
+}
 .header {
   width: 100%;
   position: absolute;
@@ -400,7 +403,7 @@ button {
 .task__wrapper {
   display: flex;
   padding-top: 384px;
-  padding-bottom: 208px;
+  padding-bottom: 104px;
   box-sizing: border-box;
 }
 .task__top {
@@ -411,4 +414,42 @@ button {
   height: 625px;
   background: #d9d9d9;
   position: relative;
+}
+/*---task-info---*/
+.task-info {
+  width: 100%;
+}
+.task-info__wrapper {
+  padding-top: 102px;
+  padding-bottom: 292px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.task-info__inner {
+  width: 100%;
+  display: flex;
+  padding-top: 19px;
+  padding-bottom: 46px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+}
+.task-info__inner-aside {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 280px;
+  padding-left: 0;
+  padding-top: 122px;
+  padding-bottom: 76px;
+  box-sizing: border-box;
+  border-right: 1px solid #000000;
+}
+.task-info__inner-key {
+  font-family: "Type-Machine", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 46.9px;
+  color: #000;
+  text-align: center;
 }
