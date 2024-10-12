@@ -103,7 +103,7 @@ button {
 .promo__image {
   width: 404px;
   height: 530px;
-  margin: 144px auto 0;
+  margin: 144px auto 42px;
   position: relative;
 }
 .promo__image img {
@@ -128,4 +128,35 @@ button {
   position: absolute;
   top: -2px;
   right: -138px;
+}
+.info {
+  width: 100%;
+}
+.info__wrapper {
+  padding-top: 53px;
+  padding-bottom: 63px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.info__text {
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+  max-width: 380px;
+  width: 100%;
+}
+.info__title {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 66px;
+  color: #000;
+}
+.info__subtitle {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  color: #000;
+  text-align: justify;
 }
