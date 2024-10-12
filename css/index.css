@@ -475,6 +475,10 @@ section {
   color: #000;
   align-self: flex-end;
   margin-top: 104px;
+  transition: all 0.3s ease-out;
+}
+.task-info__further:hover {
+  opacity: 0.5;
 }
 .task-info__further img {
   width: auto;
