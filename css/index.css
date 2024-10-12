@@ -205,6 +205,7 @@ button {
   flex-direction: column;
   padding-left: 69px;
   box-sizing: border-box;
+  border-right: 1px solid #000000;
 }
 .info__all-key {
   font-family: "Type-Machine", sans-serif;
@@ -212,4 +213,10 @@ button {
   font-size: 30px;
   line-height: 46.9px;
   color: #000;
+}
+.key-one {
+  margin-top: 32px;
+}
+.key-two {
+  margin-top: 16px;
 }
