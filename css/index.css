@@ -223,4 +223,6 @@ button {
 .info__all-main {
   display: flex;
   flex-direction: column;
+  padding-left: 75px;
+  box-sizing: border-box;
 }
